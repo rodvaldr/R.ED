@@ -72,20 +72,18 @@ nav ul li:nth-child(4) {
 }
 
 nav ul li:hover {
-	background-color: rgba(226, 210, 35, 1.0);
+	background-color: rgba(226, 210, 35, 0.2);
 }
 
 ul a {
-	color: #fff;
+	color: #000;
 }
 
 ul a:hover {
 	color: #fff;
+	transition: all 0.3s;
 }
 
-.selected {
-	color: #fff;
-}
 
 
 
@@ -122,7 +120,7 @@ ul a:hover {
 }
 
 #section_2 {
-    background-color: rgba(227, 230, 35, 0.5);
+	background-color: rgba(226, 210, 35, 0.1);
     padding: 0rem 0 6rem;
     text-align: left;
 }
@@ -312,14 +310,14 @@ h1.animated {
 
 h1 {
 	font-family: 'Knockout 49 A', 'Knockout 49 B'; 
-	font-weight: 600; 
+	font-weight: 500; 
 	font-style: normal;
 	font-size: 18rem;
 	text-transform: uppercase;
 	line-height: 14rem;
 	letter-spacing: -1px;
 	color: #ff3300;
-	padding-bottom: 30px;
+	padding-bottom: 0px;
 	opacity: 0.8;
 }
 
@@ -334,6 +332,10 @@ h1 a {
 h1 a:hover {
     color: #fff;
     opacity: 0.5;
+}
+
+.span {
+	color: #ff3300;
 }
 
 h2 {
@@ -387,17 +389,9 @@ h6 {
 ******************************/
 
 
-/* Nav max 550 */
+/* Max 550 */
 @media (max-width: 550px)  {
     
-nav ul li {
-	font-family: 'Quarto A', 'Quarto B'; 
-	font-size: 1.5rem;
-	font-weight: 300;
-	line-height: 2rem;
-	letter-spacing: 1px;
-	padding: 12px 20px;
-}
 
 .two.columns {
     max-height: 90px;
@@ -405,23 +399,62 @@ nav ul li {
 }
 
 .ten.columns {
- 	max-width: 75%;
- 	max-height: 120px;
+ 	max-width: 70%;
+ 	height: 130px;
  	float: right;
-}
+ }
 
 h1 {
-    font-size: 13rem;
-    line-height: 11rem;
-    letter-spacing: -0.3rem;
+    font-size: 10rem;
+    line-height: 0.8em;
+    letter-spacing: -0.2rem;
+    padding-right: 10px;
+}
+
+
+h2 {
+	font-weight: 400; 
+	font-size: 3.0rem;
+	line-height: 1.1em;
+    letter-spacing: 0.2px;
+	padding-right: 0px;
 }
 
 .section_0 {
 	
     background-size: cover;
-    padding-bottom: 25rem;
+    padding-bottom: 17rem;
     max-height: 400px;
+    text-align: left;
 }
+
+.img_caption {
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    color: #fff;
+}
+
+
+
+/*Mobile menu*/
+
+nav ul li {
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 1rem;
+	letter-spacing: 1px;
+	padding: 25px 5px;
+}
+
+
+
+
+
+}
+
+
 
 }
 
